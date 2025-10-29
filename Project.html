@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrijul Bhardwaj - Portfolio</title>
+   <style>
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #0078d7;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0078d7;
+    border-radius: 5px;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #004aad;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 25px;
+}
+
+   </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hrijul Bhardwaj</h1>
+        <p>Web Developer | Designer | Learner</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Hrijul Photo" class="profile-img">
+        <p>Hello! I’m Hrijul Bhardwaj, a web development enthusiast. I enjoy learning new technologies and building creative web designs using HTML, CSS, and JavaScript.</p>
+        <hr>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Experience Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Some small web projects I’ve worked on include:</p>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Simple To-Do List App</li>
+            <li>Registration Form with Validation</li>
+        </ul>
+        <button>View Projects</button>
+        <hr>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me through email or social platforms.</p>
+        <button>Contact Now</button>
+    </section>
+
+    <button id="topBtn">↑ Top</button>
+
+    <footer>
+        <p>&copy; 2025 Hrijul Bhardwaj. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
